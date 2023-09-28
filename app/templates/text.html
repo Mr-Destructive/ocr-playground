@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload a File and extract text</title>
+</head>
+<body>
+    <h1>Upload a File</h1>
+    <form action="/extract" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <label for="columns">Text Label:</label>
+        <input type="text" name="columns">
+        <input type="submit" value="Extract">
+    </form>
+</body>
+</html>
